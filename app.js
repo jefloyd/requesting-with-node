@@ -1,5 +1,14 @@
 var movie = require("./movie");
-var threeFavoriteMovies = [];
+var threeFavoriteMovies = ['silence of the lambs', 'superman', 'pans labrynth' ];
 threeFavoriteMovies.forEach(function(film){
   // your code here
+
+movie(film);
+
 });
+
+
+
+
+
+
